@@ -156,7 +156,7 @@ if(!PlayFab._internalSettings) {
     }
 }
 
-PlayFab.buildIdentifier = "jbuild_javascriptsdk__sdk-slave2016-3_0";
+PlayFab.buildIdentifier = "jbuild_javascriptsdk__sdk-slave2016-1_0";
 PlayFab.sdkVersion = "1.33.181001";
 PlayFab.GenerateErrorReport = function (error) {
     if (error == null)

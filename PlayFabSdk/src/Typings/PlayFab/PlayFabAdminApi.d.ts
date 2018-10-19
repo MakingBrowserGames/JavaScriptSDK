@@ -2070,6 +2070,7 @@ declare module PlayFabAdminModels {
         | "FacebookInstantGamesIdNotLinked"
         | "InvalidFacebookInstantGamesSignature"
         | "FacebookInstantGamesAuthNotConfiguredForTitle"
+        | "EntityProfileConstraintValidationFailed"
         | "MatchmakingEntityInvalid"
         | "MatchmakingPlayerAttributesInvalid"
         | "MatchmakingCreateRequestMissing"
