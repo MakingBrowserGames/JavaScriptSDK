@@ -95,6 +95,11 @@ declare module PlayFabProfilesModels {
         EntityChain?: string;
         /** The files on this profile. */
         Files?: { [key: string]: EntityProfileFileMetadata };
+        /**
+         * The friendly name of the entity. This field may serve different purposes for different entity types. i.e.: for a title
+         * player account it could represent the display name of the player, whereas on a character it could be character's name.
+         */
+        FriendlyName?: string;
         /** The language on this profile. */
         Language?: string;
         /** The objects on this profile. */
